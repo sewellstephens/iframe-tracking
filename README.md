@@ -38,4 +38,4 @@ Iframe tracking is open source and 100% free to use. Just copy and paste code an
 
 Just find elements and data on the page and then send it into the Iframe Url with Query Params. Its that simple to use.
 
-
+Made by [Sewell Stephens](https://sewellstephens.com)
