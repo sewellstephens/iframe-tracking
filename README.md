@@ -1,6 +1,7 @@
 # iframe-tracking
 An alternative to third party cookies
 
+![image](https://github.com/sewellstephens/iframe-tracking/blob/main/iframe.png)
 
 Third party cookies are being deprecated and an alternative thats easy to use and avaliable to anyone is crucial to todays world of marketing.
 
@@ -26,3 +27,15 @@ iframe.setAttribute("src","https://app.obeatow.com/tracker-api?key=" + id1.inner
 ...
 
 ```
+
+# Open source to everyone
+
+Iframe tracking is open source and 100% free to use. Just copy and paste code and you are good to go.
+
+
+
+# How does it work exactly?
+
+Just find elements and data on the page and then send it into the Iframe Url with Query Params. Its that simple to use.
+
+
