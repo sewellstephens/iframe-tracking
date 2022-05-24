@@ -32,7 +32,7 @@ iframe.setAttribute("src","https://app.obeatow.com/tracker-api?key=" + id1.inner
 
 Iframe tracking is open source and 100% free to use. Just copy and paste code and you are good to go.
 
-
+![image](https://github.com/sewellstephens/iframe-tracking/blob/main/trust-badge-1.png)
 
 # How does it work exactly?
 
