@@ -1,4 +1,4 @@
-# pritelmonkie
+# Pritelmonkie
 An alternative to third party cookies using iframe technology
 
 ![image](https://github.com/sewellstephens/iframe-tracking/blob/main/iframe.png)
@@ -30,7 +30,7 @@ iframe.setAttribute("src","https://app.obeatow.com/tracker-api?key=" + id1.inner
 
 # Open source to everyone
 
-Iframe tracking is open source and 100% free to use. Just copy and paste code and you are good to go.
+Pritelmonkie is open source and 100% free to use. Just copy and paste code and you are good to go.
 
 ![image](https://github.com/sewellstephens/iframe-tracking/blob/main/trust-badge-1.png)
 
