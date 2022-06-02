@@ -1,5 +1,5 @@
-# iframe-tracking
-An alternative to third party cookies
+# pritelmonkie
+An alternative to third party cookies using iframe technology
 
 ![image](https://github.com/sewellstephens/iframe-tracking/blob/main/iframe.png)
 
