@@ -30,14 +30,26 @@ iframe.setAttribute("src","https://app.obeatow.com/tracker-api?key=" + id1.inner
 
 ```
 
-# Open source to everyone
+Using Post an On message with the invisible iframe(s). You can add as many invisible iframe trackers as you like securely. Just don't flood the page with hundreds of them for the best user expeerience.
 
+```
+window.addEventListener("message", event => { 
+let data1 = event.data.data1
+let data2 = event.data.data2
+}
+```
+
+Send messages in 500 milisecond intervals like below
+
+```
+setInterval(function(){
+postMessage(message, targetOrigin)
+}, 500);
+
+```
+# Open source to everyone
 Pritelmonkie is open source and 100% free to use. Just copy and paste code and you are good to go.
 
 ![image](https://github.com/sewellstephens/iframe-tracking/blob/main/trust-badge-1.png)
-
-# How does it work exactly?
-
-Just find elements and data on the page and then send it into the Iframe Url with Query Params. Its that simple to use.
 
 Made by [Sewell Stephens](https://sewellstephens.com)
