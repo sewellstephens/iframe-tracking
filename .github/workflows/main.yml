@@ -3,7 +3,7 @@
 - name: NPM Publish
   # You may pin to the exact commit or the version.
   # uses: JS-DevTools/npm-publish@0f451a94170d1699fd50710966d48fb26194d939
-  uses: JS-DevTools/npm-publish@v1
+  uses: Pritelmonkie/npm-publish@v1
 
 name: CI
 
@@ -39,3 +39,20 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+          
+  on: push
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 10
+      - run: npm install
+      - run: npm test
+      - uses: Pritelmonkie/npm-publish@v1
+        with:
+          token: ${{ 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 }}
