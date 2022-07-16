@@ -69,4 +69,5 @@ Pritelmonkie is open source and 100% free to use. Just copy and paste code and y
 
 ![image](https://github.com/sewellstephens/iframe-tracking/blob/main/trust-badge-1.png)
 
-Made by [Sewell Stephens](https://sewellstephens.com)
+Made by:
+[![image](https://user-images.githubusercontent.com/41175080/179368990-f4f195f2-92fb-4a99-96e5-513da3b92c17.png)](https://sewellstephens.com)
