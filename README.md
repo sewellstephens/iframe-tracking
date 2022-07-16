@@ -8,9 +8,17 @@ An alternative to third party cookies using iframe technology
 Third party cookies are being deprecated and an alternative thats easy to use and avaliable to anyone is crucial to todays world of marketing.
 
 # How does this work?
-By using some simple javascript, you will be up and running in no time. Heres an example code snippet from my SaaS [Obeatow](https://obeatow.com).
+First install from NPM.
 
 ```
+> npm i pritelmonkie
+```
+
+By using some simple javascript, you will be up and running in no time. Heres an example code snippet.
+
+```
+import { pritel } from 'pritelmonkie';
+
 // Get elements from page
 
 document.getElementById('id').style.display = 'none';
@@ -21,16 +29,25 @@ let id1 = document.getElementById('id');
 
 // Create an iframe to send data to your tracking service
 
-var iframe = document.createElement('iframe');
+let urlst = 'https://app.obeatow.com/form-submission-api?key=' + id1.innerText;
 
-document.getElementsByTagName('body')[0].appendChild(iframe);
-iframe.setAttribute("style","height:1px;width:1px;display:none;");
-iframe.setAttribute("src","https://app.obeatow.com/tracker-api?key=" + id1.innerText);
-...
+let urlst1 = String(urlst);
+
+pritel(urlst1)
 
 ```
 
-Using Post an On message with the invisible iframe(s). You can add as many invisible iframe trackers as you like securely. Just don't flood the page with hundreds of them for the best user expeerience.
+If you use Post message to send data to the Iframe, The shorthand pritel function is not supported. Please use following code:
+
+```
+ var iframe = document.createElement('iframe');
+
+document.getElementsByTagName('body')[0].appendChild(iframe);
+iframe.setAttribute("style","height:1px;width:1px;display:none;");
+iframe.setAttribute("src", 'https://example.com');
+```
+
+Using Post message with the invisible iframe(s). You can add as many invisible iframe trackers as you like securely. Just don't flood the page with hundreds of them for the best user expeerience.
 
 ```
 window.addEventListener("message", event => { 
