@@ -1,5 +1,5 @@
 # Pritelmonkie 
-![image](https://github.com/sewellstephens/iframe-tracking/blob/main/pritelmonkie-icon.png)
+![image](https://github.com/sewellstephens/iframe-tracking/blob/main/pritelmonkie-logo-color.png)
 
 An alternative to third party cookies using iframe technology
 
