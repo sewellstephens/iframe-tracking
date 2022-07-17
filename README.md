@@ -8,10 +8,12 @@ An alternative to third party cookies using iframe technology
 Third party cookies are being deprecated and an alternative thats easy to use and avaliable to anyone is crucial to todays world of marketing.
 
 # How does this work?
-First install from NPM.
+First install from NPM or use Unpkg.
 
 ```
 > npm i pritelmonkie
+
+https://unpkg.com/pritelmonkie/index.js
 ```
 
 By using some simple javascript, you will be up and running in no time. Heres an example code snippet.
