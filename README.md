@@ -11,8 +11,9 @@ Third party cookies are being deprecated and an alternative thats easy to use an
 First install from NPM or use Unpkg.
 
 ```
-> npm i pritelmonkie
-
+> npm install pritelmonkie
+```
+```
 https://unpkg.com/pritelmonkie/index.js
 ```
 
