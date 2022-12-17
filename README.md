@@ -59,14 +59,6 @@ let data2 = event.data.data2
 }
 ```
 
-Send messages in 500 milisecond intervals like below
-
-```
-setInterval(function(){
-postMessage(message, targetOrigin)
-}, 500);
-
-```
 # Open source to everyone
 Pritelmonkie is open source and 100% free to use. Just copy and paste code and you are good to go.
 
