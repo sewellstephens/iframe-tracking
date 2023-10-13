@@ -20,8 +20,6 @@ https://unpkg.com/pritelmonkie/index.js
 By using some simple javascript, you will be up and running in no time. Heres an example code snippet.
 
 ```
-import { pritel } from 'pritelmonkie';
-
 // Get elements from page
 
 document.getElementById('id').style.display = 'none';
