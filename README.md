@@ -11,7 +11,7 @@ Third party cookies are being deprecated and an alternative thats easy to use an
 First install from NPM or use Unpkg.
 
 ```
-> npm install pritelmonkie
+npm install pritelmonkie
 ```
 ```
 https://unpkg.com/pritelmonkie/index.js
@@ -61,5 +61,3 @@ let data2 = event.data.data2
 Pritelmonkie is open source and 100% free to use. Just copy and paste code and you are good to go.
 
 ![image](https://github.com/sewellstephens/iframe-tracking/blob/main/trust-badge-1.png)
-
-By AnchorpenewerSoft
