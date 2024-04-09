@@ -1,6 +1,6 @@
 {
-  "name": "iframetracking",
-  "description": "Alternative to third party cookies",
+  "name": "iframe-tracking",
+  "description": "Alternative to third-party cookies",
   "version": "0.0.1",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sewellstephens/iframe-tracking"
   },
