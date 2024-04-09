@@ -1,19 +1,12 @@
 {
-  "name": "iframe-tracking",
-  "description": "Alternative to third-party cookies",
-  "version": "0.0.1",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sewellstephens/iframe-tracking.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sewellstephens/iframe-tracking"
-  },
-  "homepage": "https://github.com/sewellstephens/iframe-tracking"
+    "name": "pritelmonkie",
+    "version": "0.0.8",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
 }
